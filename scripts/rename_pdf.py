@@ -17,9 +17,16 @@ from pypdf import PdfReader
 import crossref_commons.retrieval
 
 def main():           
-    print("\nScript:", sys.argv[0])
+    print("\nScript:", sys.argv[0])    
+    
+    try:
+        sys.argv[1]   
+    except:
+        raise RuntimeError("You did not specify any PDF file with name formatt my_file.pdf.\
+            \nPlease run again with the file specified:\n rename_pdf.py my_file.pdf \nOR \npython3 rename_pdf.py my_file.pdf")
+    
     print(f"PDF name: {sys.argv[1]}")      
-    pdf_name = sys.argv[1]           
+    pdf_name = sys.argv[1]        
     
     rename_to_authoryear = False
     try: 
