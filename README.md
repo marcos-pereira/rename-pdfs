@@ -66,6 +66,7 @@ The following problems can occurr depending on your PDF file metadata:
 1. If your PDF file does not contain the `/doi` field in its metadata, it is not possible to use the authoryear option. If you try to use it, it should throw a runtime error explaining the problem.
 2. If your PDF file does not contain the `/Title` field in its metadata, the `rename_pdf.py` script will not be able to rename your PDF file. If you try to rename it, it should throw a runtime error explaining the problem.
 3. If your PDF file has the `/Title` field in its metadata, but it is empty (e.g. has zero length), the `rename_pdf.py` script will not be able to rename your PDF file. If you try to rename it, it should throw a runtime error explaining the problem.
+4. If you run the `rename_pdf.py` script without any parameter, it will throw a runtime error explaining no PDF file was specified.
 
 # Did you have any trouble to install or use the `rename_pdf.py`? Please, submit an issue.
 You are welcome to submit an issue to the repository explaining what did not work and the error messages you had. Do not hesitate to ask. Hopefully, we will find a solution to the problem.
