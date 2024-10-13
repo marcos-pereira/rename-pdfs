@@ -8,6 +8,8 @@
 # Contributors: 
 # marcos-pereira (https://github.com/marcos-pereira)
 
+#!/usr/bin/python3
+
 import os
 import sys
 
