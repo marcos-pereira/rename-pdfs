@@ -22,7 +22,8 @@ def main():
     try:
         sys.argv[1]   
     except:
-        raise RuntimeError("You did not specify any PDF file with name formatt my_file.pdf.")
+        raise RuntimeError("You did not specify any PDF file with name formatt my_file.pdf.\
+            \nPlease run again with the file specified:\n rename_pdf.py my_file.pdf \nOR \npython3 rename_pdf.py my_file.pdf")
     
     print(f"PDF name: {sys.argv[1]}")      
     pdf_name = sys.argv[1]        
