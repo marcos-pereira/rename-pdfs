@@ -18,7 +18,7 @@ python main <name_of_file>.pdf
 It will rename the file to its "/Title" located in its metadata. The new name will have no spaces and underscores will be put in between words. Any ":" will be removed.
 
 # Run the script from anywhere in the system
-If you want to run the rename_pdf.py script from anywhere in your system without needing to change to the repository directory do the following:
+If you want to run the rename_pdf.py script from anywhere in your system without needing to change to the repository directory do the following (see [the reference](https://www.reddit.com/r/linux4noobs/comments/i0172u/adding_python_scripts_to_path_variable_without/)):
 
 1. Go to the scripts folder and change the file permissions to enable it to be executed:
 ```
