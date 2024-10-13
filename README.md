@@ -72,6 +72,8 @@ The following problems can occurr depending on your PDF file metadata:
 # Did you have any trouble to install or use the `rename_pdf.py`? Please, submit an issue.
 You are welcome to submit an issue to the repository explaining what did not work and the error messages you had. Do not hesitate to ask. Hopefully, we will find a solution to the problem.
 
+![issues](images/issues.png "Issues")
+
 # Would you like to contribute to the repository?
 You are welcome to open a pull request with your contribution. 
 
