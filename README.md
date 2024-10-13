@@ -19,7 +19,7 @@ Beware that using crossref-commons to frequently may get you blocked from using 
 1. Go to the scripts folder and run the command:
 ```
 cd scripts
-python3 rename_pdf <name_of_file>.pdf
+python3 rename_pdf.py <name_of_file>.pdf
 ```
 It will rename the file to its "/Title" located in its metadata. The new name will have no spaces and underscores will be put in between words. Any ":" will be removed.
 
